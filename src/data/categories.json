@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cases",
+    "slug": "huse",
+    "name": {
+      "ro": "Huse",
+      "ru": "Чехлы",
+      "en": "Cases"
+    },
+    "icon": "shield"
+  },
+  {
+    "id": "glass",
+    "slug": "sticla",
+    "name": {
+      "ro": "Sticlă & Folii",
+      "ru": "Стекло и пленки",
+      "en": "Glass & Films"
+    },
+    "icon": "smartphone"
+  },
+  {
+    "id": "charging",
+    "slug": "incarcare",
+    "name": {
+      "ro": "Încărcare",
+      "ru": "Зарядка",
+      "en": "Charging"
+    },
+    "icon": "battery-charging"
+  },
+  {
+    "id": "audio",
+    "slug": "audio",
+    "name": {
+      "ro": "Audio",
+      "ru": "Аудио",
+      "en": "Audio"
+    },
+    "icon": "headphones"
+  },
+  {
+    "id": "power",
+    "slug": "powerbank",
+    "name": {
+      "ro": "PowerBank",
+      "ru": "PowerBank",
+      "en": "PowerBank"
+    },
+    "icon": "battery"
+  },
+  {
+    "id": "auto",
+    "slug": "auto",
+    "name": {
+      "ro": "Auto",
+      "ru": "Авто",
+      "en": "Auto"
+    },
+    "icon": "car"
+  }
+]

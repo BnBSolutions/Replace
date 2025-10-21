@@ -1,0 +1,83 @@
+[
+  {
+    "id": "iphone-15-screen",
+    "service": "Înlocuire ecran",
+    "deviceBrand": "Apple",
+    "deviceModel": "iPhone 15 Pro",
+    "price": { "amount": 2499, "currency": "MDL" },
+    "compareAtPrice": { "amount": 3200, "currency": "MDL" },
+    "duration": 60,
+    "warranty": 180,
+    "category": "screen"
+  },
+  {
+    "id": "iphone-14-battery",
+    "service": "Înlocuire baterie",
+    "deviceBrand": "Apple",
+    "deviceModel": "iPhone 14",
+    "price": { "amount": 899, "currency": "MDL" },
+    "duration": 45,
+    "warranty": 180,
+    "category": "battery"
+  },
+  {
+    "id": "samsung-s23-screen",
+    "service": "Înlocuire ecran",
+    "deviceBrand": "Samsung",
+    "deviceModel": "Galaxy S23 Ultra",
+    "price": { "amount": 1899, "currency": "MDL" },
+    "duration": 90,
+    "warranty": 180,
+    "category": "screen"
+  },
+  {
+    "id": "iphone-13-port",
+    "service": "Reparare port încărcare",
+    "deviceBrand": "Apple",
+    "deviceModel": "iPhone 13",
+    "price": { "amount": 599, "currency": "MDL" },
+    "duration": 60,
+    "warranty": 180,
+    "category": "port"
+  },
+  {
+    "id": "iphone-12-camera",
+    "service": "Înlocuire cameră",
+    "deviceBrand": "Apple",
+    "deviceModel": "iPhone 12",
+    "price": { "amount": 1299, "currency": "MDL" },
+    "duration": 90,
+    "warranty": 180,
+    "category": "camera"
+  },
+  {
+    "id": "iphone-11-back-glass",
+    "service": "Înlocuire spate sticlă",
+    "deviceBrand": "Apple",
+    "deviceModel": "iPhone 11",
+    "price": { "amount": 799, "currency": "MDL" },
+    "duration": 120,
+    "warranty": 90,
+    "category": "back-glass"
+  },
+  {
+    "id": "water-damage-diagnostic",
+    "service": "Diagnostic & curățare oxidare",
+    "deviceBrand": "Apple",
+    "deviceModel": "Universal",
+    "price": { "amount": 0, "currency": "MDL" },
+    "duration": 30,
+    "warranty": 0,
+    "category": "water-damage"
+  },
+  {
+    "id": "samsung-a54-battery",
+    "service": "Înlocuire baterie",
+    "deviceBrand": "Samsung",
+    "deviceModel": "Galaxy A54",
+    "price": { "amount": 599, "currency": "MDL" },
+    "duration": 60,
+    "warranty": 180,
+    "category": "battery"
+  }
+]

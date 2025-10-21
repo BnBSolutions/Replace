@@ -1,0 +1,121 @@
+[
+  {
+    "id": "case-iphone-15-silicone-black",
+    "slug": "husa-silicon-iphone-15-neagra",
+    "title": "Husă Silicon iPhone 15 Pro - Neagră",
+    "category": "cases",
+    "price": { "amount": 299, "currency": "MDL" },
+    "compareAt": { "amount": 399, "currency": "MDL" },
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800", "alt": "iPhone case black" }
+    ],
+    "brand": "Premium",
+    "deviceModels": ["iPhone 15", "iPhone 15 Pro"],
+    "material": "Silicon premium",
+    "colorHex": "#000000",
+    "magsafe": true,
+    "stock": 25,
+    "badges": ["bestseller"],
+    "features": ["MagSafe compatible", "Drop protection", "Soft touch"]
+  },
+  {
+    "id": "glass-iphone-15-tempered",
+    "slug": "sticla-iphone-15-temperata",
+    "title": "Sticlă temperată iPhone 15 Pro",
+    "category": "glass",
+    "price": { "amount": 149, "currency": "MDL" },
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800", "alt": "Tempered glass" }
+    ],
+    "brand": "TechShield",
+    "deviceModels": ["iPhone 15", "iPhone 15 Pro"],
+    "stock": 50,
+    "badges": ["bestseller"],
+    "features": ["9H hardness", "Anti-fingerprint", "Easy installation"]
+  },
+  {
+    "id": "charger-usbc-20w",
+    "slug": "incarcator-usbc-20w",
+    "title": "Încărcător rapid USB-C 20W",
+    "category": "charging",
+    "price": { "amount": 249, "currency": "MDL" },
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1591290619762-2d3040fd90f1?w=800", "alt": "USB-C charger" }
+    ],
+    "brand": "FastCharge",
+    "stock": 30,
+    "badges": ["new"],
+    "features": ["Fast charging", "Compact design", "Universal compatibility"]
+  },
+  {
+    "id": "cable-usbc-lightning-1m",
+    "slug": "cablu-usbc-lightning-1m",
+    "title": "Cablu USB-C la Lightning 1m",
+    "category": "charging",
+    "price": { "amount": 179, "currency": "MDL" },
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800", "alt": "Lightning cable" }
+    ],
+    "brand": "FastCharge",
+    "stock": 40,
+    "features": ["Fast charging support", "Durable braided cable", "MFi certified"]
+  },
+  {
+    "id": "powerbank-10000mah",
+    "slug": "powerbank-10000mah",
+    "title": "PowerBank 10000mAh cu USB-C PD",
+    "category": "power",
+    "price": { "amount": 499, "currency": "MDL" },
+    "compareAt": { "amount": 699, "currency": "MDL" },
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800", "alt": "Power bank" }
+    ],
+    "brand": "PowerMax",
+    "stock": 15,
+    "badges": ["promo"],
+    "features": ["10000mAh capacity", "Fast charging", "Dual ports", "LED indicator"]
+  },
+  {
+    "id": "earbuds-wireless-pro",
+    "slug": "casti-wireless-pro",
+    "title": "Căști Wireless Pro TWS",
+    "category": "audio",
+    "price": { "amount": 899, "currency": "MDL" },
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800", "alt": "Wireless earbuds" }
+    ],
+    "brand": "AudioMax",
+    "stock": 12,
+    "badges": ["new", "bestseller"],
+    "features": ["Active noise cancellation", "30h battery life", "IPX5 water resistant"]
+  },
+  {
+    "id": "case-samsung-s24-clear",
+    "slug": "husa-samsung-s24-transparenta",
+    "title": "Husă Transparentă Samsung S24 Ultra",
+    "category": "cases",
+    "price": { "amount": 249, "currency": "MDL" },
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800", "alt": "Clear phone case" }
+    ],
+    "brand": "ClearView",
+    "deviceModels": ["Samsung S24 Ultra", "Samsung S24+"],
+    "material": "TPU transparent",
+    "stock": 20,
+    "features": ["Crystal clear", "Anti-yellowing", "Shock absorption"]
+  },
+  {
+    "id": "holder-car-magnetic",
+    "slug": "suport-auto-magnetic",
+    "title": "Suport Auto Magnetic cu Wireless Charging",
+    "category": "auto",
+    "price": { "amount": 399, "currency": "MDL" },
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1603481588273-2f908a9a7a1b?w=800", "alt": "Car phone holder" }
+    ],
+    "brand": "DriveMax",
+    "stock": 18,
+    "badges": ["new"],
+    "features": ["Wireless charging 15W", "360° rotation", "Strong magnet"]
+  }
+]

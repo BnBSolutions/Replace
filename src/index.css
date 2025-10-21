@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GSM Service + Shop Design System - Dark Premium Theme */
+
+@layer base {
+  :root {
+    /* Brand Colors - Dark Theme */
+    --background: 0 0% 15%;           /* #262626 charcoal */
+    --foreground: 0 0% 98%;           /* #FBFBFB white */
+
+    --card: 0 0% 18%;                 /* slightly lighter than bg */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Accent - Coral Red */
+    --primary: 345 78% 44%;           /* #BF2442 */
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 25%;            /* muted dark */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 22%;
+    --muted-foreground: 0 0% 64%;     /* #A4A4A4 */
+
+    --accent: 345 78% 44%;            /* same as primary */
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 25%;               /* subtle borders */
+    --input: 0 0% 25%;
+    --ring: 345 78% 44%;
+
+    --radius: 0.75rem;
+
+    /* Custom Tokens */
+    --accent-deep: 345 50% 12%;       /* #271315 deep accent */
+    --glass-bg: 0 0% 18% / 0.8;       /* glassmorphism */
+    --success: 142 76% 36%;           /* green for status */
+    --warning: 38 92% 50%;            /* amber for alerts */
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(345 78% 44%), hsl(345 78% 54%));
+    --gradient-dark: linear-gradient(180deg, hsl(0 0% 15%), hsl(0 0% 10%));
+    --gradient-glass: linear-gradient(135deg, hsl(0 0% 18% / 0.6), hsl(0 0% 22% / 0.4));
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 4px 16px hsl(0 0% 0% / 0.15);
+    --shadow-lg: 0 8px 32px hsl(0 0% 0% / 0.2);
+    --shadow-glow: 0 0 24px hsl(345 78% 44% / 0.3);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* Sidebar (if needed) */
+    --sidebar-background: 0 0% 12%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 345 78% 44%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 20%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 22%;
+    --sidebar-ring: 345 78% 44%;
+  }
+
+  /* Light mode (optional fallback - not primary) */
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 15%;
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+    --primary: 345 78% 44%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 15%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 345 78% 44%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 345 78% 44%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  h1 { @apply text-4xl md:text-5xl lg:text-6xl; }
+  h2 { @apply text-3xl md:text-4xl lg:text-5xl; }
+  h3 { @apply text-2xl md:text-3xl; }
+  h4 { @apply text-xl md:text-2xl; }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground;
+  }
+}
+
+@layer components {
+  /* Glass Card Effect */
+  .glass-card {
+    background: hsl(var(--glass-bg));
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--border));
+    box-shadow: var(--shadow-md);
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Hover Scale */
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+
+  /* Glow Effect */
+  .glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Custom Underline Animation */
+  .link-underline {
+    @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
