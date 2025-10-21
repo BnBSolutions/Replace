@@ -35,7 +35,7 @@ export default function About() {
 
         <div className="prose prose-lg dark:prose-invert mb-16">
           <p>
-            GSM Service a fost fondat în 2014 cu misiunea de a oferi servicii de reparații de cea mai înaltă calitate 
+            Replace a fost fondat în 2014 cu misiunea de a oferi servicii de reparații de cea mai înaltă calitate 
             pentru dispozitive mobile. De-a lungul anilor, am reparat peste 5000 de telefoane și am construit o bază 
             solidă de clienți mulțumiți.
           </p>

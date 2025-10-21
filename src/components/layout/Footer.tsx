@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">GSM Service</h3>
+            <h3 className="font-semibold text-lg mb-4">Replace</h3>
             <p className="text-muted-foreground text-sm mb-4">
               Reparații profesionale și accesorii originale pentru dispozitivele tale. 
               Diagnostic gratuit și garanție 6 luni.
@@ -115,7 +115,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© 2025 GSM Service. {t('footer.rights')}.</p>
+          <p>© 2025 Replace. {t('footer.rights')}.</p>
           <div className="flex gap-6">
             <Link to={`/${currentLocale}/legal/terms`} className="hover:text-primary transition-colors">
               {t('footer.terms')}
